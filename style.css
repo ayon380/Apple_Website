@@ -1,0 +1,1100 @@
+@font-face {
+    font-family: "SF Regular";
+    src: url(SFPRODISPLAYREGULAR.OTF);
+}
+
+@font-face {
+    font-family: "SF Bold";
+    src: url(SFPRODISPLAYBOLD.OTF);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: SF Regular;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+video {
+    position: top;
+    z-index: 5;
+    width: 100%;
+    height: 1080px;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    z-index: 1;
+    top: 0px;
+}
+
+#navbar::before {
+    content: " ";
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    height: 130px;
+    top: 0px;
+    width: 100%;
+    /* opacity: 1.0; */
+    z-index: -1;
+}
+
+#logo img {
+    height: 25px;
+    width: 20px;
+    /* padding-right: 10px; */
+}
+
+#logo1 img {
+    height: 20px;
+    width: 20px;
+}
+
+#navbar ul li a {
+    display: block;
+    padding-left: 0px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    ;
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0px;
+    font-size: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+#navbar ul {
+    display: flex;
+    /* padding-right: 100px; */
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    list-style: none;
+}
+
+#navbar ul li a:hover {
+    color: rgb(0, 140, 255);
+}
+
+#nav2 {
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-flex;
+    top: 0px;
+    z-index: 10;
+    background: absolute;
+    /* background-color: #fff; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;
+    box-shadow: 10px;
+    backdrop-filter: blur(5px);
+}
+
+#nav2 .n1 {
+    font-size: 20px;
+    text-align: left;
+    padding-right: 1100px;
+    padding-left: 100px;
+    color: white;
+    font-weight: bold;
+}
+
+.n2 ul {
+    display: flex;
+    padding-right: 100px;
+    justify-content: right;
+    list-style: none;
+}
+
+.n2 ul li a:hover {
+    color: rgb(0, 0, 255) !important;
+
+}
+
+.n2 ul li a {
+    display: block;
+    padding-left: 20 px;
+    padding-right: 20px;
+    padding-top: 0px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0px;
+    font-size: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.n2 .button1 {
+    border-radius: 10px;
+    border: 2px solid blue;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    cursor: pointer;
+}
+
+.n2 .button1:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+#mac1 h1 {
+    /* padding-top: px; */
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+    animation: none;
+}
+
+#mac1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mac1 .h2 {
+    text-align: center;
+    margin: top 100px;
+    font-size: 100px;
+    font-weight: bold;
+    animation: none;
+}
+
+#mac1 .para1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+#mac1 .h3 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#mac2 img {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mac2 .para2 ul {
+    display: flex;
+    /* padding-right: 100px; */
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    list-style: none;
+    font-size: 150px;
+}
+
+#mac2 .para2 ul {
+    animation: none;
+}
+
+#mac2 .para3 ul {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    list-style: none;
+    animation: none;
+    font-size: 20px;
+    padding-bottom: 300px;
+}
+
+.mac3 {
+    background-image: url("Media/M4.png"), linear-gradient(to bottom right, rgb(82, 0, 170), rgb(217, 82, 255), rgb(0, 0, 0));
+    min-height: 1100px;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: fixed;
+    z-index: 0;
+}
+
+.mac3::before {
+    content: " ";
+    background-image: linear-gradient(to bottom right, red, yellow);
+    z-index: 1;
+}
+
+.mac4 ul {
+    display: flex;
+    /* justify-content:space-around; */
+    padding-left: 500px;
+    ;
+}
+
+.mac4 ul li {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 60px;
+    font-weight: bold;
+    font-size: 25px;
+    background-image: linear-gradient(to bottom right, rgb(174, 0, 255), rgb(133, 0, 157), black);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.mac4 .para5 {
+    padding-top: 50px;
+    font-size: 30px;
+    padding: 50px 400px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.mac5 {
+    padding-bottom: 200px;
+}
+
+.mac5 h1 {
+    padding-top: 200px;
+    padding-left: 500px;
+    font-size: 60px;
+    padding-bottom: 100px;
+}
+
+.mac5 img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    padding-bottom: 100px;
+    animation: none;
+}
+
+.mac5 .para6 ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 150px;
+    padding-right: 200px;
+    text-decoration: none;
+}
+
+.mac5 .para6 ul li {
+    display: block;
+    text-align: center;
+    padding-left: 100px;
+    text-decoration: none;
+    font-size: 30px;
+    color: grey;
+}
+
+/* .mac6 {
+    animation:slide-up 2s;
+} */
+
+.mac6 .p1 {
+    text-align: center;
+    font-size: 125px;
+    font-weight: bold;
+    animation: none;
+}
+
+.mac6 .p2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(176, 176, 176);
+    animation: none;
+}
+
+#mac7 h1 {
+    padding-top: 200px;
+    padding-left: 400px;
+    font-size: 80px;
+    padding-bottom: 100px;
+}
+
+#mac7 img {
+    display: block;
+    margin: auto;
+    animation: none;
+}
+
+#mac7 .p {
+    text-align: left;
+    padding-left: 400px;
+    padding-right: 800px;
+    padding-top: 100px;
+    font-size: 35px;
+}
+
+.mac8 h1 {
+    padding-top: 200px;
+    padding-left: 400px;
+    font-size: 80px;
+    padding-bottom: 100px;
+}
+
+.mac8 img {
+    display: block;
+    margin: auto;
+}
+
+.mac8 p {
+    text-align: left;
+    padding-left: 400px;
+    padding-right: 600px;
+    padding-top: 100px;
+    font-size: 35px;
+    /* padding-bottom: 200px; */
+}
+
+#mac9 h1 {
+    font-size: 100px;
+    padding-top: 200px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+#mac9 img {
+    display: block;
+    margin: auto;
+    width: 1400px;
+    padding-bottom: 150px;
+    animation: none;
+}
+
+#mac9 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 200px;
+}
+
+#mac10 {
+    position: relative;
+    animation: none;
+}
+
+#mac10 img {
+    width: 1300px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    border-radius: 30px;
+    /* padding-bottom: 100px; */
+}
+
+#mac10 .p1 {
+    position: absolute;
+    top: 150px;
+    color: #fff;
+    text-align: center;
+}
+
+#mac10 h1 {
+    font-size: 90px;
+}
+
+#mac10 p {
+    padding-top: 50px;
+    padding-left: 550px;
+    font-size: 30px;
+    padding-right: 550px;
+}
+
+#mac11 {
+    position: relative;
+    animation: none;
+}
+
+#mac11 img {
+    margin-top: 50px !important;
+    width: 1300px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    border-radius: 30px;
+    /* padding-bottom: 100px; */
+}
+
+#mac11 .p1 {
+    position: absolute;
+    top: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+#mac11 h1 {
+    font-size: 90px;
+    padding: 0px 600px;
+}
+
+#mac11 p {
+    padding-top: 50px;
+    padding-left: 650px;
+    font-size: 30px;
+    padding-right: 650px;
+}
+
+#mac12 {
+    position: relative;
+    animation: none;
+}
+
+#mac12 img {
+    margin-top: 50px !important;
+    width: 1300px;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    border-radius: 30px;
+    /* padding-bottom: 100px; */
+}
+
+#mac12 .p1 {
+    position: absolute;
+    top: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+#mac12 h1 {
+    font-size: 90px;
+    padding: 0px 500px;
+}
+
+#mac12 p {
+    padding-top: 50px;
+    padding-left: 550px;
+    font-size: 30px;
+    padding-right: 550px;
+}
+
+#mac13 {
+    position: relative;
+}
+
+#mac13 img {
+    margin-top: 50px !important;
+    width: 1300px;
+    display: block;
+    position: relative;
+    margin: 0px auto;
+    border-radius: 30px;
+    /* padding-bottom: 100px; */
+}
+
+#mac13 .p1 {
+    position: absolute;
+    top: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+#mac13 h1 {
+    font-size: 90px;
+    padding: 0px 500px;
+}
+
+#mac13 p {
+    padding-top: 50px;
+    padding-left: 550px;
+    font-size: 30px;
+    padding-right: 550px;
+}
+
+#mac14 {
+    position: relative;
+}
+
+#mac14 img {
+    margin-top: 50px !important;
+    width: 1300px;
+    position: relative;
+    display: block;
+    margin: 0px auto;
+    border-radius: 30px;
+    /* padding-bottom: 100px; */
+    /* margin-bottom: 300px; */
+}
+
+#mac14 .p1 {
+    position: absolute;
+    top: 100px;
+    color: #fff;
+    text-align: center;
+}
+
+#mac14 h1 {
+    font-size: 90px;
+    padding: 0px 500px;
+}
+
+#mac14 p {
+    padding-top: 50px;
+    padding-left: 550px;
+    font-size: 30px;
+    padding-right: 550px;
+}
+
+#mac15 h1 {
+    text-align: center;
+    font-size: 100px;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+#mac15 h2 {
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+
+#mac15 p {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
+#mac16 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+#mac16 ul {
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 50px;
+}
+
+#mac16 ul li {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+    padding-right: 80px;
+    /* padding-left: 400px; */
+}
+
+#mac16 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac17 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac17 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 50px;
+    list-style: none;
+}
+
+#mac17 ul li {
+    padding-right: 50px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac17 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac18 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac18 ul {
+    padding-left: 50px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    /* padding-bottom: 50px; */
+}
+
+#mac18 ul li {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+    padding-right: 40px;
+}
+
+#mac18 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac19 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac19 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+#mac19 ul li {
+    padding-right: 60px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac19 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac20 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac20 ul {
+    padding-left: 40px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    /* padding-bottom: 50px; */
+}
+
+#mac20 ul li {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+    padding-right: 50px;
+}
+
+#mac20 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac20 .h {
+    padding-left: 80px;
+    padding-right: 130px;
+}
+
+#mac20 .h4 {
+    margin-right: 100px;
+}
+
+#mac21 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac21 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+#mac21 ul li {
+    padding-right: 25px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac21 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac22 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac22 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+#mac22 ul li {
+    padding-right: 45px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac22 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac23 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac23 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+#mac23 ul li {
+    padding-right: 30px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac23 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac24 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac24 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+#mac24 ul li {
+    padding-right: 25px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac24 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac25 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac25 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+#mac25 ul li {
+    padding-right: 25px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac25 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac26 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac26 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+#mac26 ul li {
+    padding-right: 35px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac26 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac27 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac27 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+#mac27 ul li {
+    padding-right: 40px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac27 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac28 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac28 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+#mac28 ul li {
+    padding-right: 60px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac28 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac29 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac29 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 0px;
+    list-style: none;
+}
+
+#mac29 ul li {
+    padding-right: 15px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac29 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac30 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac30 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+#mac30 ul li {
+    padding-right: 30px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac30 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac31 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac31 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+    list-style: none;
+}
+
+#mac31 ul li {
+    padding-right: 25px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac31 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac32 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac32 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+#mac32 ul li {
+    padding-right: 25px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac32 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac33 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac33 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+#mac33 ul li {
+    padding-right: 30px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac33 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac34 {
+    margin-right: 400px;
+    margin-left: 400px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
+}
+
+#mac34 ul {
+    padding-top: 50px;
+    display: flex;
+    justify-content: left;
+    padding-left: 40px;
+    list-style: none;
+}
+
+#mac34 ul li {
+    padding-right: 25px;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+}
+
+#mac34 h2 {
+    font-size: 25px;
+    color: black;
+}
+
+#mac35 {
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(300px);
+    }
+
+    to {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
